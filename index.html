@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Portfolio</title>
+    <link rel="stylesheet" href="sa.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="/sa.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="#">REGUNATHAN V</a></h1>
+                <div class="toggle-button" id="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#blog">Recent Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <script>
+            document.getElementById('toggle-button').addEventListener('click', function() {
+                document.getElementById('nav-links').classList.toggle('active');
+            });    
+        </script>
+    </header>
+    
+
+    <!-- Home Section -->
+    <section id="home" style="width: 100%;" >    
+        <div class="welcome-text">
+            <div data-aos="zoom-in">
+                <img src="/_reguportfolio/img/33482-removebg-preview.png" alt="">
+            </div>
+    
+            <div data-aos="fade-up">
+                <h1>Greetings and welcome to my portfolio! </h1>
+                <h2>Hello<span class="wave">👋</span> I'm Regu</h2>
+                <p>I'm a passionate web developer with a love for interactive and animated web designs.</p>
+                <br>
+                <a href="#portfolio" class="btn" data-aos="fade-up">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" style="width: 100%;" data-aos="fade-right">
+        <div class="about_left">
+        <h2 class="about-title">About Me</h2>
+        <br>
+        <p> As a passionate and driven software developer, I have a strong foundation in programming and problem-solving. Recent graduate looking for an opportunity in Software developer. Highly poised and dedicated with a strong education in design principles and programming languages.</p>
+        <br>
+        <p>When I'm not coding, you can find me exploring the latest tech trends, refining my skills, and fostering creative solutions to the evolving needs of the digital world."</p>
+        </div>
+        <div class="about_right":>
+            <img src="/_reguportfolio/img/portrait-young-boy-christmas-celebrations-removebg-preview.png" alt="">
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" style="width: 100%;" data-aos="zoom-out">
+        <div class="education-container">
+            <div class="education-section" >
+                <h2 class="skills-title" >Education</h2>
+                <div class="timeline">
+                    <!-- Education 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">2020 - 2024</div>
+                        <div class="timeline-content">
+                            <h3>Bachelor of Engineering in Computer Science</h3>
+                            <p>University College of Engineering Tindivanam</p>
+                            <p>Graduated with <strong>no history of backlog</strong> and specialist in software Technology.</p>
+                        </div>
+                    </div>
+                    <!-- Education 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">2018 - 2020</div>
+                        <div class="timeline-content">
+                            <h3>Higher Secondary School </h3>
+                            <p>Sambaviga High School, Sivagangai</p>
+                            <p>Focused on science and mathematics, with a keen interest in programming and technology.</p>
+                        </div>
+                    </div>
+                    <!-- Education 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">2007 - 2018</div>
+                        <div class="timeline-content">
+                            <h3>High School</h3>
+                            <p>St.Joseph's Matriculation School,Okkur</p>
+                            <p>Developed foundational knowledge in multiple subjects, laying the groundwork for future studies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+         
+            
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" style="width: 100%;">
+        <h2 class="skills-title">Skills</h2>
+        <div class="skills-container">
+            <div class="skill" data-aos="fade-left">
+                <h3>HTML</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 95%;">95%</div>
+                </div>
+            </div>
+            <div class="skill" data-aos="fade-left">
+                <h3>CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%;">90%</div>
+                </div>
+            </div>
+            <div class="skill" data-aos="fade-left">
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 50%;">50%</div>
+                </div>
+            </div>
+        </div>
+        <div class="skills-container">
+            <div class="skill" data-aos="fade-left">
+                <h3>React</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 30%;">30%</div>
+                </div>
+            </div>
+            <div class="skill" data-aos="fade-left">
+                <h3>Java</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 50%;">50%</div>
+                </div>
+            </div>
+            <div class="skill" data-aos="fade-left">
+                <h3>Mysql</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;">80%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" style="width: 100%;">
+        <h2 class="portfolio_title">Projects</h2>
+        <br>
+        <div class="projects">
+            <div class="project" data-aos="fade-right">
+                <!-- data-aos="flip-left" -->
+                <h3>Project Title: Precise knowledge tracing (PKT) model for Future Exercise Prediction Accuracy </h3>
+                <h3>Domain: Learning Technologies</h3>
+                <h3>Goal: To predict the learner’s future performance</h3>
+                <p>Knowledge tracing is a technique used in the field of educational data mining and intelligent tutoring systems to model and predict students' mastery of concepts or skills over time.
+                    The proposed work introduces Precise knowledge tracing (PKT) that contains two types of difference from exercise and from prior knowledge. 
+                    The first type of difference is the exercise level difference which refers to difference among the exercises in term of their content difficulty and relationship to other exercises.
+                    The second type of difference is the learner level difference which refers to the difference among learners in term of their prior knowledge and learning abilities. 
+                    Initially to update the learner’s current knowledge and next to predict the correctness of future exercise.Using deep learning method to define the recurrent neural network (RNN) is a type of neural network designed to handle sequential data by maintaining a hidden state that captures information about previous inputs in the sequence.
+                    PKT uses <strong>deep learning </strong>method of recurrent neural network (RNN) to model knowledge state (KS) and predicts the performance.
+                                        
+                    </p>
+                    <div id="pdf-viewer">
+                        <h2>Access My PDF Document</h2>
+                        <input type="password" id="passwordInput" placeholder="Enter Password">
+                        <button id="openPdfButton">Open PDF</button>
+                        <div id="pdfContainer" style="display: none;">
+                            <iframe id="pdfIframe" src="" width="600" height="800" style="border: none;"></iframe>
+                        </div>
+                        <p id="errorMessage" style="color: red; display: none;"></p> <!-- Error message -->
+                        <p>password:"regu". If any trouble, please <a href="#contact">contact me</a> for assistance.</p>
+                    </div>
+                    
+                    <script>
+                        document.getElementById("openPdfButton").addEventListener("click", function() {
+                            const correctPassword = "regu"; // Set your correct password
+                            const enteredPassword = document.getElementById("passwordInput").value;
+                            const pdfPath = "/_reguportfolio/img/main_report_kt.pdf"; // Replace with your PDF file path
+                    
+                            if (enteredPassword === correctPassword) {
+                                window.open('/_reguportfolio/img/main_report_kt.pdf', '_blank');                          
+                            } else {
+                                document.getElementById("errorMessage").textContent = "Incorrect password";
+                                document.getElementById("errorMessage").style.display = "block"; // Show error message
+                                document.getElementById("pdfContainer").style.display = "none"; // Hide PDF container
+                            }
+                        });
+                    </script>
+                    
+                
+            </div>
+            <br><br><br>
+            <div class="project_right"  data-aos="fade-left">
+                <img src="/_reguportfolio/img/openart-image_GtjeHzq__1728469486825_raw-removebg-preview.png" alt="Project 1">
+            </div>
+        </div>
+        <div class="projects">
+            <div class="project" data-aos="fade-right">
+                <img  src="/_reguportfolio/img/openart-image_b-XSL9K8_1728474371825_raw__1_-removebg-preview.png" alt="Project 2"><br>
+                
+            </div>
+            <div class="project_rights"  data-aos="fade-left">
+                <h3>Project Title: Enhancing Data Reliability in IoT through Cloud-Assisted Trust Computing</h3>
+                <h3>Domain: Cloud Computing</h3>
+                <h3>Goal: To maximize the success rate of data collection while ensuring security performance</h3>
+                <p>A cloud-assisted reliable trust computing (CRTC) scheme for data collection in Internet of Things (IoT). The CRTC scheme mainly includes two parts: a reliable approach of obtaining the real data of intelligent sensing devices (ISDs) at a low cost and an effective method of trust computing to evaluate the trustworthiness of ISDs based on the data collected by unmanned aerial vehicles  (UAVs). In the proposed method, ISDs fit the forwarding packets information to  form inspection information with a small amount of data and then send it to 
+                    inspection nodes, effectively reducing the cost of routing inspection information. Moreover, we optimize the path planning algorithm for UAVs to reduce flight 
+                    distance and improve data collection efficiency. The proposed CRTC scheme can effectively identify trustworthy ISDs and improve data collection efficiency. </p>
+                    <div id="pdf-viewer">
+                        <h2>Access My PDF Document</h2>
+                        <input type="password" id="passwordInput1" placeholder="Enter Password">
+                        <button id="openPdfButton1">Open PDF</button>
+                        <div id="pdfContainer" style="display: none;">
+                            <iframe id="pdfIframe" src="" width="600" height="800" style="border: none;"></iframe>
+                        </div>
+                        <p id="errorMessage" style="color: red; display: none;"></p> <!-- Error message -->
+                        <p>password: "regu".If any trouble, please <a href="#contact">contact me</a> for assistance.</p>
+                    </div>
+    
+                    <script>
+                        document.getElementById("openPdfButton1").addEventListener("click", function() {
+                            const correctPassword = "regu"; // Set your correct password
+                            const enteredPassword = document.getElementById("passwordInput1").value;
+                            const pdfPath = "/_reguportfolio/img/report.docx (1).pdf"; // Replace with your PDF file path
+                    
+                            if (enteredPassword === correctPassword) {
+                                window.open('/_reguportfolio/img/report.docx (1).pdf', '_blank');                          
+                            } else {
+                                document.getElementById("errorMessage").textContent = "Incorrect password";
+                                document.getElementById("errorMessage").style.display = "block"; // Show error message
+                                document.getElementById("pdfContainer").style.display = "none"; // Hide PDF container
+                            }
+                        });
+                    </script>
+            </div>
+        </div>
+      
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" style="width: 100%;">
+        <div class="blog-container">
+            <h2 class="skills-title">Recent Blog Posts</h2>
+            <br>
+            <div class="blog-post" data-aos="fade-up">
+                <img src="/_reguportfolio/img/screencapture-regu-res-template-netlify-app-2024-10-09-18_31_56.png" alt="Blog 1">
+                <h3>Restaurant template for online orders  </h3>
+                <p>The layout appears is based on grid approach  for a restaurant listing page.</p>
+                <br>
+                <a href="https://regu-res-template.netlify.app/" class="btn" target="_blank">Read More</a>
+            </div>
+            <br><br>
+            <div class="blog-post" data-aos="fade-up">
+                <img src="/_reguportfolio/img/Screenshot 2024-10-09 at 18-14-42 Portfolio.png" alt="Blog 2">
+                <h3>Design a Dynamic Portfolio Website</h3>
+                <p>Learn tips and tricks for creating a visually appealing portfolio that stands out.</p>
+                <br>
+                <a href="https://regu-portfolio.netlify.app/" class="btn" target="_blank">Read More</a>
+            </div>
+            <br><br>
+            <div class="blog-post" data-aos="fade-up">
+                <img src="/_reguportfolio/img/screencapture-regunathan-v-github-io-DO-To-List-2024-10-09-22_21_31.png" alt="Blog 3" target="_blank">
+                <h3>Why time is precious     </h3>
+                <p>Task management app help users to organize their daily activities effectively, stay on track, and boost productivity.</p><br>
+                <a href="https://regunathan-v.github.io/DO-To-List/" class="btn" target="_blank">Read More</a> <br><br>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="width: 100%;">
+        <h2 class="contact_title" >Contact Me</h2>
+        <div class="contact_container">
+            <div class="contact_left" data-aos="fade-right">
+                <img src="/_reguportfolio/img/picc-removebg.png" alt="">
+            </div>
+            <br>
+            
+            <div class="social_media" >
+                <h2>If you interest with my resume Please contact me.</h2>
+                <ul class="icon_list" >
+                     <li class="icon"><a href="https://www.instagram.com/regu_svg?igsh=MWZ2MmoydzNpZHFx" target=_blank><span class="iconify instagram" data-icon="entypo-social:instagram-with-circle" data-inline="false" data-width="50" data-height="50"></span></li></a>
+                     <li class="icon"><a href="https://www.linkedin.com/in/regunathanlearner/" target=_blank><span class="iconify linkedin" data-icon="entypo-social:linkedin-with-circle" data-inline="false"  data-width="50" data-height="50"></span></li></a>
+                     <li class="icon"><a href="https://github.com/REGUNATHAN-V" target=_blank><span class="iconify github" data-icon="ant-design:github-filled" data-inline="false"  data-width="50" data-height="50"></span></li></a>
+                     <li class="icon"><a href="mailto:regunathan450@gmail.com" target=_blank><span class="iconify google" data-icon="ant-design:google-plus-circle-filled" data-inline="false" data-width="50" data-height="50"></span></li></a>
+                </ul>
+                <div>
+                <a href="https://comforting-peony-75c384.netlify.app/" target=_blank><button type="button" class="btn btn-primary btn-lg Resume">See my Resume</button></a>
+                </div>
+            </div>
+            <form id="contactForm" data-aos="fade-left">
+                <p>Have a question or just want to say hello? Let's connect!<p>
+                <div class="contact_box">
+                  <div class="form_group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                  </div>
+                  <div class="form_group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                  </div>
+                  <div class="form_group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                  </div>
+                  <div class="form_group">
+                    <button type="submit">Send</button>
+                  </div>
+                </div>
+            </form>
+              
+        </div>
+        
+       
+    </section>
+    
+
+    <!-- Footer Section -->
+   <!-- Footer Section -->
+<footer class="footer" style="width: 100%;">
+    <div class="footer-container">
+        <div class="footer-left">
+            <h4>Thank you for visiting my portfolio! Let’s create something amazing together. Don't hesitate to reach out!</h4>
+            <p>&copy; 2024 Dynamic Portfolio. All rights reserved.</p>
+        </div>
+
+        <div class="footer-right">
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#blog">Recent Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-social">
+            <a href="https://www.linkedin.com/in/regunathanlearner/" target="_blank"><span class="iconify" data-icon="entypo-social:linkedin-with-circle" data-width="40" data-height="40"></span></a>
+            <a href="https://github.com/REGUNATHAN-V" target="_blank"><span class="iconify" data-icon="ant-design:github-filled" data-width="40" data-height="40"></span></a>
+            <a href="mailto:regunathan450@gmail.com" target="_blank"><span class="iconify" data-icon="ant-design:google-plus-circle-filled" data-width="40" data-height="40"></span></a>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="sa.js"></script>
+</body>
+</html>
